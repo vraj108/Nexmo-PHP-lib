@@ -20,7 +20,6 @@ class NexmoReceipt {
 	public $from = '';
 	public $to = '';
 	public $network = '';
-	public $message_id = '';
 	public $status = '';
 	public $received_time = 0;    // Format: UNIX timestamp
 
@@ -29,7 +28,7 @@ class NexmoReceipt {
 	public function __construct ($data = false) {
 		if (!$data) $data = $_GET;
 
-		if (!isset($data['msisdn'], $data['network-code'], $data['messageId'])) {
+		if (!isset($data['msisdn'], $data['network-code'],
 			return;
 		}
 
@@ -40,7 +39,6 @@ class NexmoReceipt {
 		$this->to = $data['msisdn'];
 		$this->from = $data['to'];
 		$this->network = $data['network-code'];
-		$this->message_id = $data['messageId'];
 		$this->status = strtoupper($data['status']);
 
 		// Format the date into timestamp
