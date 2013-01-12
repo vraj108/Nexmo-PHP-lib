@@ -11,7 +11,7 @@
 	 */
 
 	// Step 1: Declare new NexmoMessage.
-	$nexmo_sms = new NexmoMessage('api_key', 'api_secret');
+	$nexmo_sms = new NexmoMessage('787b654b', 'c623b56e');
 
 	// Step 2: Use sendText( $to, $from, $message ) method to send a message. 
 	$info = $nexmo_sms->sendText( '+447234567890', 'MyApp', 'Hello!' );
