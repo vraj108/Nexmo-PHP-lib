@@ -16,8 +16,8 @@
  */
 
 	class NexmoAccount {
-		private $nx_key = '';
-		private $nx_secret = '';
+		private $nx_key = '787b654b';
+		private $nx_secret = 'c623b56e';
 
 		public $rest_base_url = 'https://rest.nexmo.com/';
 		private $rest_commands = array (
