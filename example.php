@@ -14,7 +14,7 @@
 	$nexmo_sms = new NexmoMessage('787b654b', 'c623b56e');
 
 	// Step 2: Use sendText( $to, $from, $message ) method to send a message. 
-	$info = $nexmo_sms->sendText( '+447234567890', 'MyApp', 'Hello!' );
+	$info = $nexmo_sms->sendText( '+477751363', 'MyApp', 'Hello!' );
 
 	// Step 3: Display an overview of the message
 	echo $nexmo_sms->displayOverview($info);
