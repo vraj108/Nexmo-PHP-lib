@@ -19,8 +19,8 @@
 class NexmoMessage {
 
 	// Nexmo account credentials
-	private $nx_key = '5e73c6db';
-	private $nx_secret = '8a7e2d3e';
+	private $nx_key = 'f47229b4';
+	private $nx_secret = 'f1fd89e2';
 
 	/**
 	 * @var string Nexmo server URI
