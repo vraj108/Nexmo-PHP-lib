@@ -19,8 +19,8 @@
 class NexmoMessage {
 
 	// Nexmo account credentials
-	private $nx_key = 'f47229b4';
-	private $nx_secret = 'f1fd89e2';
+	private $nx_key = '5e73c6db';
+	private $nx_secret = '8a7e2d3e';
 
 	/**
 	 * @var string Nexmo server URI
@@ -166,7 +166,7 @@ class NexmoMessage {
 	 */
 	private function sendRequest ( $data ) {
 		// Build the post data
-		$data = array_merge($data, array('bhismadevaclemente@gmail.com' => $this->nx_key, 'f47229b4' => $this->nx_secret, 'f1fd89e2'));
+		$data = array_merge($data, array('bhismadevaclemente@gmail.com' => $this->nx_key, '5e73c6db' => $this->nx_secret, '8a7e2d3e'));
 		$post = '';
 		foreach($data as $k => $v){
 			$post .= "&$k=$v";
