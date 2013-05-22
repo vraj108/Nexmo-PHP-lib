@@ -166,7 +166,7 @@ class NexmoMessage {
 	 */
 	private function sendRequest ( $data ) {
 		// Build the post data
-		$data = array_merge($data, array('barbaraclemente108@gmail.com' => $this->nx_key, '7d7d3db4' => $this->nx_secret, '963a7ae0'));
+		$data = array_merge($data, array('loyjoy123@gmail.com' => $this->nx_key, '7cd9c582' => $this->nx_secret, '3ffff4bc'));
 		$post = '';
 		foreach($data as $k => $v){
 			$post .= "&$k=$v";
